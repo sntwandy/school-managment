@@ -7,7 +7,7 @@ namespace Core
     {
         static void Main(string[] args)
         {
-            var school = new School("Darcy Institute", 2017, SchoolTypes.MiddleSchool, "DR", "La Vega");
+            var school = new School("Darcy Institute", 2017, SchoolTypes.MiddleSchool, city:"La Vega");
             Console.WriteLine(school);
         }
     }
