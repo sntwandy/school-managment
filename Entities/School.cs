@@ -1,3 +1,4 @@
+using Core.Entities.Types;
 
 namespace Core.Entities
 {
@@ -14,7 +15,7 @@ namespace Core.Entities
         public string City { get; set; }
         public  SchoolTypes SchoolType { get; set; }
 
-        public School(string name, int year) => (Name, YearFoundation) = (name, year);
+        public School(string name, int year, SchoolTypes type, string city) => (Name, YearFoundation) = (name, year);
 
         public School(string name, int year, SchoolTypes type, string country = "", string city = "")
         {
