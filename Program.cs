@@ -18,7 +18,7 @@ namespace Core
                 new Course() { Name = "201" },
                 new Course() { Name = "301" },
             };
-            school = null;
+            // school = null;
 
             // Method to print school courses array
             static void PrintSchoolCourses(School school)
